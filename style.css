@@ -1,0 +1,189 @@
+body {
+    text-align: center;
+    font-family: 'PT Serif', serif;
+}
+
+.logo {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.logo img {
+    width: 200px;
+    height: auto;
+}
+
+.first-card {
+    font-family: 'Cookie', cursive;
+    height: 220px;
+}
+
+.normal-text {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.normal-text.first {
+    position: relative;
+    top: 15px;
+    right: 40px;
+}
+.normal-text.second {
+    position: relative;
+    top: 5px;
+    right: 20px;
+}
+
+.rose-gold i{
+    position: relative;
+    top: -45px;
+    font-size: 6rem;
+    margin: 0;
+    color: #c68e5b;
+}
+
+.normal-text.third {
+    position: relative;
+    top: -95px;
+}
+
+.wedding-season {
+    position: relative;
+    font-size: 3rem;
+    margin: 0;
+    top: -100px;
+}
+
+.card {
+    box-shadow: -3px 3px 6px rgb(168, 168, 168);
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.equipment-box {
+    text-align: left;
+}
+
+.equipment-image{
+    width: 400px;
+    height: 150px;
+    margin: 0 auto 10px;
+}
+
+.equipment-image img{
+    width: 400px;
+    height: auto;
+}
+
+.equipment-text {
+    font-size: 0.8rem;
+    padding: 25px;
+}
+
+.equipment-text .title {
+    color: #c68e5b;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0 0 5px;
+}
+
+.equipment-text .text-box {
+    border: 1px solid black;
+    display: inline-block;
+    padding: 2px 10px;
+    margin: 5px 0 0;
+}
+
+.last-card {
+    margin-top: 40px;
+    width: 90%;
+    padding: 35px 0;
+}
+
+.last-card p {
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+.last-card .gold-text {
+    color: #c68e5b;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 10px 0 20px;
+}
+
+.last-card button {
+    border: none;
+    outline: none;
+    background: #c68e5b;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+.last-image {
+    width: 400px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.last-image img {
+    width: 400px;
+    height: auto;
+}
+
+@media(min-width: 600px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first-box {
+        align-self: flex-end;
+    }
+
+    .third-box {
+        align-self: flex-end;
+    }
+
+    .fifth-box {
+        align-self: flex-end;
+    }
+
+    .first-card {
+        width: 500px;
+    }
+
+    .equipment-box {
+        width: 400px;
+    }
+
+    .last-card {
+        width: 400px;
+        margin-top: 60px;
+    }
+}
+
+@media(min-width: 820px) {
+    .container {
+        width: 820px;
+        margin: 0 auto;
+    }
+
+    .second-box {
+        margin-top: -150px;
+    }
+
+    .third-box {
+        margin-top: -150px;
+    }
+
+    .fourth-box {
+        margin-top: -150px;
+    }
+
+    .fifth-box {
+        margin-top: -150px;
+    }
+}
